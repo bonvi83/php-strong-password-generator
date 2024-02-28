@@ -18,6 +18,11 @@ require_once "./functions.php";
   </head>
 
   <body>
-
+  <h2>Generatore di Password Sicure</h2>
+    <form method="GET">
+        <label for="lunghezza">Lunghezza Password:</label>
+        <input type="number" id="lunghezza" name="lunghezza" min="1" max="10" required>
+        <button type="submit">Genera Password</button>
+    </form>
   </body>
 </html>
